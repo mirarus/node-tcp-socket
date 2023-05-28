@@ -1,0 +1,19 @@
+{
+  "name": "node-tcp-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Ali Güçlü - Mirarus",
+  "license": "ISC",
+  "browser": {
+    "tls": false,
+    "net": false
+  },
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
