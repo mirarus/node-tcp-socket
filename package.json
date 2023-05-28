@@ -1,19 +1,27 @@
 {
   "name": "node-tcp-socket",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
   "keywords": [],
   "author": "Ali Güçlü - Mirarus",
   "license": "ISC",
   "browser": {
-    "tls": false,
     "net": false
   },
   "dependencies": {
     "net": "^1.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirarus/node-tcp-socket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mirarus/node-tcp-socket/issues"
+  },
+  "homepage": "https://github.com/mirarus/node-tcp-socket#readme",
+  "description": ""
 }
